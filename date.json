@@ -5,36 +5,36 @@
       {
          "key":"spring",
          "start":"03-01",
-         "end":"06-21"
+         "end":"06-22"
       },
       {
          "key":"fall",
          "start":"09-01",
-         "end":"12-21"
+         "end":"12-22"
       }
    ],
    "vacation_session":[
       {
          "key":"summer",
          "start":"06-22",
-         "end":"07-14"
+         "end":"07-15"
       },
       {
          "key":"winter",
          "start":"12-22",
-         "end":"01-14"
+         "end":"01-15"
       }
    ],
    "vacation":[
       {
          "key":"summer",
          "start":"07-15",
-         "end":"08-31"
+         "end":"09-01"
       },
       {
          "key":"winter",
          "start":"01-15",
-         "end":"02-29"
+         "end":"03-01"
       }
    ]
 }
