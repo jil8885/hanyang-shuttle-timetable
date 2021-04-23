@@ -1,40 +1,40 @@
 {   
-   "holiday":["05-15"],
+   "holiday":["01-05-15"],
    "halt":[],
    "semester":[
       {
          "key":"spring",
-         "start":"03-01",
-         "end":"06-22"
+         "start":"01-03-01",
+         "end":"01-06-22"
       },
       {
          "key":"fall",
-         "start":"10-13",
-         "end":"12-22"
+         "start":"01-10-13",
+         "end":"01-12-22"
       }
    ],
    "vacation_session":[
       {
          "key":"summer",
-         "start":"06-22",
-         "end":"07-15"
+         "start":"01-06-22",
+         "end":"01-07-15"
       },
       {
          "key":"winter",
-         "start":"12-22",
-         "end":"12-22"
+         "start":"01-12-22",
+         "end":"01-12-22"
       }
    ],
    "vacation":[
       {
          "key":"summer",
-         "start":"07-15",
-         "end":"10-13"
+         "start":"01-07-15",
+         "end":"01-10-13"
       },
       {
          "key":"winter",
-         "start":"12-22",
-         "end":"03-01"
+         "start":"01-12-22",
+         "end":"02-03-01"
       }
    ]
 }
