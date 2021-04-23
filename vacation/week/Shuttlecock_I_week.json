@@ -1,5 +1,4 @@
-{
-  "shuttlecock_i_week": [
+[
     { "time": "08:15", "type": "C" },
     { "time": "08:45", "type": "C" },
     { "time": "09:15", "type": "C" },
@@ -29,5 +28,4 @@
     { "time": "21:15", "type": "C" },
     { "time": "21:45", "type": "C" },
     { "time": "22:15", "type": "C" }
-  ]
-}
+]

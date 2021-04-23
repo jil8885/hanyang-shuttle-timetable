@@ -1,5 +1,4 @@
-{
-  "residence_week": [
+[
     { "time": "07:45", "type": "C" },
     { "time": "07:55", "type": "DH" },
     { "time": "08:05", "type": "DH" },
@@ -69,5 +68,5 @@
     { "time": "20:45", "type": "C" },
     { "time": "21:15", "type": "C" },
     { "time": "21:45", "type": "C" }
-  ]
-}
+]
+
