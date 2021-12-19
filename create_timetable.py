@@ -11,8 +11,8 @@ def caculate_time(hour, minute, delta):
     return hour, minute
 
 # 한대앞역 기준 배차 간격, 시간, 행선
-timetable_interval_weekdays = [(8, 0, 22, 0, 30, "C")]
-timetable_interval_weekends = [(9, 0, 22, 0, 60, "C")]
+timetable_interval_weekdays = [(8, 0, 22, 0, 30, "C"), (8, 5, 8, 55, 5, "DH"), (9, 10, 18, 50, 10, "DH")]
+timetable_interval_weekends = [(9, 0, 22, 0, 30, "C")]
 
 timetable_weekdays = {}
 timetable_weekends = {}
@@ -34,7 +34,7 @@ a_list = []
 for key, value in timetable_weekdays.items():
     a_list.append({"time": key, "type": value})
 
-with open("E:\\Projects\\hyuabot-backend-golang\\shuttle\\timetable\\vacation_session\\week.json", "w") as f:
+with open("D:\\Projects\\hyuabot-backend-golang\\shuttle\\timetable\\vacation_session\\week.json", "w") as f:
     json.dump(sorted(a_list, key=lambda x: x["time"]), f, indent=4, sort_keys=True)
 
 for x in timetable_interval_weekends:
@@ -54,5 +54,5 @@ a_list = []
 for key, value in timetable_weekends.items():
     a_list.append({"time": key, "type": value})
 
-with open("E:\\Projects\\hyuabot-backend-golang\\shuttle\\timetable\\vacation_session\\weekend.json", "w") as f:
+with open("D:\\Projects\\hyuabot-backend-golang\\shuttle\\timetable\\vacation_session\\weekend.json", "w") as f:
     json.dump(sorted(a_list, key=lambda x: x["time"]), f, indent=4, sort_keys=True)
