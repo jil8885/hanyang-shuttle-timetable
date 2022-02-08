@@ -1,4 +1,4 @@
-import json
+import csv
 
 def caculate_time(hour, minute, delta):
     minute += delta
@@ -11,7 +11,7 @@ def caculate_time(hour, minute, delta):
     return hour, minute
 
 # 한대앞역 기준 배차 간격, 시간, 행선
-timetable_interval_weekdays = [(8, 0, 22, 0, 30, "C"), (8, 5, 8, 55, 5, "DH"), (9, 10, 18, 50, 10, "DH")]
+timetable_interval_weekdays = [(8, 0, 22, 0, 30, "C")]
 timetable_interval_weekends = [(9, 0, 22, 0, 30, "C")]
 
 timetable_weekdays = {}
@@ -32,10 +32,11 @@ for x in timetable_interval_weekdays:
 
 a_list = []
 for key, value in timetable_weekdays.items():
-    a_list.append({"time": key, "type": value})
+    a_list.append([value, key])
 
-with open("D:\\Projects\\hyuabot-backend-golang\\shuttle\\timetable\\vacation_session\\week.json", "w") as f:
-    json.dump(sorted(a_list, key=lambda x: x["time"]), f, indent=4, sort_keys=True)
+with open("./vacation/week.csv", "w") as f:
+    writer = csv.writer(f)
+    writer.writerows(sorted(a_list, key=lambda x: x[1]))
 
 for x in timetable_interval_weekends:
     start_hour, start_minute, end_hour, end_minute, interval, heading = x
@@ -52,7 +53,8 @@ for x in timetable_interval_weekends:
 
 a_list = []
 for key, value in timetable_weekends.items():
-    a_list.append({"time": key, "type": value})
+    a_list.append([value, key])
 
-with open("D:\\Projects\\hyuabot-backend-golang\\shuttle\\timetable\\vacation_session\\weekend.json", "w") as f:
-    json.dump(sorted(a_list, key=lambda x: x["time"]), f, indent=4, sort_keys=True)
+with open("./vacation/weekend.csv", "w") as f:
+    writer = csv.writer(f)
+    writer.writerows(sorted(a_list, key=lambda x: x[1]))
