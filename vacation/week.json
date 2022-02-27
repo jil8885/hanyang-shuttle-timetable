@@ -1,118 +1,147 @@
 [
     {
-        "time": "08:00",
+        "startsStop": "Dormitory",
+        "time": "07:50",
         "type": "C"
     },
     {
-        "time": "08:30",
+        "startsStop": "Dormitory",
+        "time": "08:20",
         "type": "C"
     },
     {
-        "time": "09:00",
+        "startsStop": "Dormitory",
+        "time": "08:50",
         "type": "C"
     },
     {
-        "time": "09:30",
+        "startsStop": "Dormitory",
+        "time": "09:20",
         "type": "C"
     },
     {
-        "time": "10:00",
+        "startsStop": "Dormitory",
+        "time": "09:50",
         "type": "C"
     },
     {
-        "time": "10:30",
+        "startsStop": "Dormitory",
+        "time": "10:20",
         "type": "C"
     },
     {
-        "time": "11:00",
+        "startsStop": "Dormitory",
+        "time": "10:50",
         "type": "C"
     },
     {
-        "time": "11:30",
+        "startsStop": "Dormitory",
+        "time": "11:20",
         "type": "C"
     },
     {
-        "time": "12:00",
+        "startsStop": "Dormitory",
+        "time": "11:50",
         "type": "C"
     },
     {
-        "time": "12:30",
+        "startsStop": "Dormitory",
+        "time": "12:20",
         "type": "C"
     },
     {
-        "time": "13:00",
+        "startsStop": "Dormitory",
+        "time": "12:50",
         "type": "C"
     },
     {
-        "time": "13:30",
+        "startsStop": "Dormitory",
+        "time": "13:20",
         "type": "C"
     },
     {
-        "time": "14:00",
+        "startsStop": "Dormitory",
+        "time": "13:50",
         "type": "C"
     },
     {
-        "time": "14:30",
+        "startsStop": "Dormitory",
+        "time": "14:20",
         "type": "C"
     },
     {
-        "time": "15:00",
+        "startsStop": "Dormitory",
+        "time": "14:50",
         "type": "C"
     },
     {
-        "time": "15:30",
+        "startsStop": "Dormitory",
+        "time": "15:20",
         "type": "C"
     },
     {
-        "time": "16:00",
+        "startsStop": "Dormitory",
+        "time": "15:50",
         "type": "C"
     },
     {
-        "time": "16:30",
+        "startsStop": "Dormitory",
+        "time": "16:20",
         "type": "C"
     },
     {
-        "time": "17:00",
+        "startsStop": "Dormitory",
+        "time": "16:50",
         "type": "C"
     },
     {
-        "time": "17:30",
+        "startsStop": "Dormitory",
+        "time": "17:20",
         "type": "C"
     },
     {
-        "time": "18:00",
+        "startsStop": "Dormitory",
+        "time": "17:50",
         "type": "C"
     },
     {
-        "time": "18:30",
+        "startsStop": "Dormitory",
+        "time": "18:20",
         "type": "C"
     },
     {
-        "time": "19:00",
+        "startsStop": "Dormitory",
+        "time": "18:50",
         "type": "C"
     },
     {
-        "time": "19:30",
+        "startsStop": "Dormitory",
+        "time": "19:20",
         "type": "C"
     },
     {
-        "time": "20:00",
+        "startsStop": "Dormitory",
+        "time": "19:50",
         "type": "C"
     },
     {
-        "time": "20:30",
+        "startsStop": "Dormitory",
+        "time": "20:20",
         "type": "C"
     },
     {
-        "time": "21:00",
+        "startsStop": "Dormitory",
+        "time": "20:50",
         "type": "C"
     },
     {
-        "time": "21:30",
+        "startsStop": "Dormitory",
+        "time": "21:20",
         "type": "C"
     },
     {
-        "time": "22:00",
+        "startsStop": "Dormitory",
+        "time": "21:50",
         "type": "C"
     }
 ]
