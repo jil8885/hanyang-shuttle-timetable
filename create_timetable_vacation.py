@@ -35,7 +35,7 @@ for x in timetable_interval_weekdays:
 a_list = []
 for key, value in timetable_weekdays.items():
     for item in value:
-        a_list.append({"time": key, "type": item["heading"], "startsStop": item["startStop"]})
+        a_list.append({"time": key, "type": item["heading"], "startStop": item["startStop"]})
 with open("./vacation/week.json", "w") as f:
     json.dump(sorted(a_list, key=lambda x: x["time"]), f, indent=4, sort_keys=True)
 
@@ -57,7 +57,7 @@ for x in timetable_interval_weekends:
 a_list = []
 for key, value in timetable_weekends.items():
     for item in value:
-        a_list.append({"time": key, "type": item["heading"], "startsStop": item["startStop"]})
+        a_list.append({"time": key, "type": item["heading"], "startStop": item["startStop"]})
 
 with open("./vacation/weekend.json", "w") as f:
     json.dump(sorted(a_list, key=lambda x: x["time"]), f, indent=4, sort_keys=True)
