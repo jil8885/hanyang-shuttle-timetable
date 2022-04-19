@@ -12,7 +12,7 @@ def caculate_time(hour, minute, delta):
 
 # 셔틀콕 기준 배차 간격, 시간, 행선
 timetable_interval_weekdays = [
-    (10, 0, 10, 30, 5, "DH", "Dormitory"), (10, 40, 11, 0, 10, "DH", "Dormitory"), (11, 15, 12, 0, 15, "DH", "Dormitory"), (12, 10, 12, 50, 10, "DH", "Dormitory"), (13, 15, 14, 15, 30, "DH", "Dormitory"),
+    (10, 0, 10, 30, 5, "DH", "Dormitory"), (10, 40, 11, 0, 10, "DH", "Dormitory"), (11, 15, 12, 0, 15, "DH", "Dormitory"), (12, 10, 12, 50, 10, "DH", "Dormitory"), (13, 15, 14, 45, 30, "DH", "Dormitory"),
     (15, 10, 16, 0, 10, "DH", "Dormitory"), (16, 6, 18, 24, 6, "DH", "Dormitory"), (18, 40, 18, 50, 10, "DH", "Dormitory"),
     (8, 0, 8, 20, 5, "DH", "Shuttlecock"), (8, 23, 8, 50, 3, "DH", "Shuttlecock"), (8, 55, 9, 20, 5, "DH", "Shuttlecock"), (9, 23, 9, 50, 3, "DH", "Shuttlecock"), (9, 55, 9, 55, 1, "DH", "Shuttlecock"),
     (8, 20, 9, 50, 30, "DY", "Shuttlecock"), (10, 20, 12, 20, 30, "DY", "Dormitory"), (16, 0, 17, 30, 30, "DY", "Dormitory"),
