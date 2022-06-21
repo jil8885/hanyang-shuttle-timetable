@@ -16,8 +16,8 @@
    "vacation_session":[
       {
          "key":"summer",
-         "start":"06/22/2001",
-         "end":"06/22/2001"
+         "start":"06/23/2001",
+         "end":"07/13/2001"
       },
       {
          "key":"winter",
@@ -28,8 +28,8 @@
    "vacation":[
       {
          "key":"summer",
-         "start":"06/22/2001",
-         "end":"09/01/2001"
+         "start":"07/14/2001",
+         "end":"08/31/2001"
       },
       {
          "key":"winter",
