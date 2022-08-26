@@ -12,7 +12,7 @@ def caculate_time(hour, minute, delta):
 
 # 셔틀콕 기준 배차 간격, 시간, 행선
 timetable_interval_weekdays = [(7, 50, 21, 50, 30, "C", "Dormitory")]
-timetable_interval_weekends = [(8, 50, 21, 50, 60, "C", "Dormitory")]
+timetable_interval_weekends = [(8, 50, 21, 50, 30, "C", "Dormitory")]
 
 timetable_weekdays = {}
 timetable_weekends = {}
