@@ -30,7 +30,7 @@ timetable_interval_weekdays = [
     (9, 50, 9, 50, 1, "DY", "shuttlecock_o", "dormitory_i"), 
     (10, 20, 12, 20, 30, "DY", "dormitory_o", "dormitory_i"),
     (16, 0, 17, 30, 30, "DY", "dormitory_o", "dormitory_i"),
-    (7, 50, 7, 50, 1, "C", "dormitory_o", "dormitory_i"),
+    (7, 50, 7, 50, 1, "C", "dormitory_o", "shuttlecock_i"),
     (13, 0, 15, 30, 30, "C", "dormitory_o", "dormitory_i"),
     (18, 0, 18, 30, 30, "C", "dormitory_o", "dormitory_i"),
     (19, 0, 21, 30, 10, "C", "dormitory_o", "dormitory_i"),
