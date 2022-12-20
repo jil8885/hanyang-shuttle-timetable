@@ -35,7 +35,7 @@ a_list = []
 for key, value in timetable_weekdays.items():
     for item in value:
         a_list.append([item["heading"], key, item["startStop"], item["endStop"]])
-with open("./vacation/week.csv", "w") as f:
+with open("./vacation/week.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerows(sorted(a_list, key=lambda x: x[1]))
 
@@ -58,6 +58,6 @@ for key, value in timetable_weekends.items():
     for item in value:
         a_list.append([item["heading"], key, item["startStop"], item["endStop"]])
 
-with open("./vacation/weekend.csv", "w") as f:
+with open("./vacation/weekend.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerows(sorted(a_list, key=lambda x: x[1]))
