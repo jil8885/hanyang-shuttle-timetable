@@ -1,10 +1,10 @@
 DHDD,한대앞 직행(기숙사~기숙사),Direct to Station(Dormitory~Dormitory),DH,dormitory_o,dormitory_i
-DHSD,한대앞 직행(기숙사~셔틀콕),Direct to Station(Dormitory~Shuttlecock),DH,dormitory_o,shuttlecock_i
-DHDS,한대앞 직행(셔틀콕~기숙사),Direct to Station(Shuttlecock~Dormitory),DH,shuttlecock_o,dormitory_i
+DHSD,한대앞 직행(기숙사~셔틀콕),Direct to Station(Dormitory~Shuttlecock),DH,shuttlecock_o,dormitory_i
+DHDS,한대앞 직행(셔틀콕~기숙사),Direct to Station(Shuttlecock~Dormitory),DH,dormitory_o,shuttlecock_i
 DHSS,한대앞 직행(셔틀콕~셔틀콕),Direct to Station(Shuttlecock~Shuttlecock),DH,shuttlecock_o,shuttlecock_i
 DYDD,예술인 직행(기숙사~기숙사),Direct to Terminal(Dormitory~Dormitory),DY,dormitory_o,dormitory_i
-DYSD,예술인 직행(기숙사~셔틀콕),Direct to Terminal(Dormitory~Shuttlecock),DY,dormitory_o,shuttlecock_i
-DYDS,예술인 직행(셔틀콕~기숙사),Direct to Terminal(Shuttlecock~Dormitory),DY,shuttlecock_o,dormitory_i
+DYSD,예술인 직행(기숙사~셔틀콕),Direct to Terminal(Dormitory~Shuttlecock),DY,shuttlecock_o,dormitory_i
+DYDS,예술인 직행(셔틀콕~기숙사),Direct to Terminal(Shuttlecock~Dormitory),DY,dormitory_o,shuttlecock_i
 DYSS,예술인 직행(셔틀콕~셔틀콕),Direct to Terminal(Shuttlecock~Shuttlecock),DY,shuttlecock_o,shuttlecock_i
 CDD,순환(기숙사~기숙사),Cycle(Dormitory~Dormitory),C,dormitory_o,dormitory_i
 CDS,순환(기숙사~셔틀콕),Cycle(Dormitory~Shuttlecock),C,dormitory_o,shuttlecock_i
