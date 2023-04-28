@@ -54,8 +54,7 @@ DH,11:45,dormitory_o,dormitory_i
 DY,11:50,dormitory_o,dormitory_i
 DH,12:00,dormitory_o,dormitory_i
 DH,12:10,dormitory_o,dormitory_i
-DH,12:20,dormitory_o,dormitory_i
-DY,12:20,dormitory_o,dormitory_i
+C,12:20,dormitory_o,dormitory_i
 DH,12:30,dormitory_o,dormitory_i
 DH,12:40,dormitory_o,dormitory_i
 DH,12:50,dormitory_o,dormitory_i
