@@ -12,8 +12,7 @@ DH,08:32,shuttlecock_o,shuttlecock_i
 DH,08:35,shuttlecock_o,shuttlecock_i
 DH,08:38,shuttlecock_o,shuttlecock_i
 DH,08:41,shuttlecock_o,shuttlecock_i
-DH,08:44,shuttlecock_o,shuttlecock_i
-DH,08:47,shuttlecock_o,shuttlecock_i
+DH,08:45,shuttlecock_o,shuttlecock_i
 DH,08:50,shuttlecock_o,shuttlecock_i
 DY,08:50,shuttlecock_o,shuttlecock_i
 DH,08:55,shuttlecock_o,shuttlecock_i
@@ -30,8 +29,7 @@ DH,09:32,shuttlecock_o,shuttlecock_i
 DH,09:35,shuttlecock_o,shuttlecock_i
 DH,09:38,shuttlecock_o,shuttlecock_i
 DH,09:41,shuttlecock_o,dormitory_i
-DH,09:44,shuttlecock_o,dormitory_i
-DH,09:47,shuttlecock_o,dormitory_i
+DH,09:45,shuttlecock_o,dormitory_i
 DH,09:50,shuttlecock_o,dormitory_i
 DY,09:50,shuttlecock_o,dormitory_i
 DH,09:55,shuttlecock_o,dormitory_i
@@ -55,13 +53,16 @@ DY,11:50,dormitory_o,dormitory_i
 DH,12:00,dormitory_o,dormitory_i
 DH,12:10,dormitory_o,dormitory_i
 C,12:20,dormitory_o,dormitory_i
+DH,12:25,dormitory_o,dormitory_i
 DH,12:30,dormitory_o,dormitory_i
 DH,12:40,dormitory_o,dormitory_i
 DH,12:50,dormitory_o,dormitory_i
 C,13:00,dormitory_o,dormitory_i
 DJ,13:15,dormitory_o,dormitory_i
+DH,13:20,dormitory_o,dormitory_i
 C,13:30,dormitory_o,dormitory_i
 DH,13:45,dormitory_o,dormitory_i
+DH,13:50,dormitory_o,dormitory_i
 C,14:00,dormitory_o,dormitory_i
 DJ,14:15,dormitory_o,dormitory_i
 DH,14:25,dormitory_o,dormitory_i
