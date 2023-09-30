@@ -12,29 +12,16 @@ def caculate_time(hour, minute, delta):
 
 # 셔틀콕 기준 배차 간격, 시간, 행선
 timetable_interval_weekdays = [
-    (10, 0, 10, 30, 5, "DH", "dormitory_o", "dormitory_i"), 
-    (10, 40, 11, 0, 10, "DH", "dormitory_o", "dormitory_i"), 
-    (11, 15, 12, 0, 15, "DH", "dormitory_o", "dormitory_i"),
-    (12, 10, 12, 50, 10, "DH", "dormitory_o", "dormitory_i"),
-    (13, 15, 14, 45, 30, "DH", "dormitory_o", "dormitory_i"),
-    (15, 10, 16, 0, 10, "DH", "dormitory_o", "dormitory_i"),
-    (16, 6, 18, 24, 6, "DH", "dormitory_o", "dormitory_i"),
-    (18, 40, 18, 50, 10, "DH", "dormitory_o", "dormitory_i"),
-    (8, 0, 8, 20, 5, "DH", "shuttlecock_o", "shuttlecock_i"), 
-    (8, 23, 8, 50, 3, "DH", "shuttlecock_o", "shuttlecock_i"),
-    (8, 55, 9, 20, 5, "DH", "shuttlecock_o", "shuttlecock_i"),
-    (9, 23, 9, 38, 3, "DH", "shuttlecock_o", "shuttlecock_i"),
-    (9, 41, 9, 50, 3, "DH", "shuttlecock_o", "dormitory_i"), 
-    (9, 55, 9, 55, 1, "DH", "shuttlecock_o", "dormitory_i"),
-    (8, 20, 9, 20, 30, "DY", "shuttlecock_o", "shuttlecock_i"), 
-    (9, 50, 9, 50, 1, "DY", "shuttlecock_o", "dormitory_i"), 
-    (10, 20, 12, 20, 30, "DY", "dormitory_o", "dormitory_i"),
+    (8, 0, 8, 0, 30, "C", "dormitory_o", "dormitory_i"), 
+    (8, 10, 9, 0, 5, "DH", "dormitory_o", "dormitory_i"), 
+    (9, 10, 9, 50, 10, "DH", "dormitory_o", "dormitory_i"), 
+    (10, 0, 18, 50, 10, "DH", "dormitory_o", "dormitory_i"), 
+    (13, 0, 15, 30, 30, "C", "dormitory_o", "dormitory_i"), 
+    (18, 0, 18, 30, 30, "C", "dormitory_o", "dormitory_i"), 
+    (19, 0, 22, 0, 15, "C", "dormitory_o", "dormitory_i"), 
+    (8, 20, 9, 50, 30, "DY", "dormitory_o", "dormitory_i"), 
+    (10, 20, 12, 20, 30, "DY", "dormitory_o", "dormitory_i"), 
     (16, 0, 17, 30, 30, "DY", "dormitory_o", "dormitory_i"),
-    (7, 50, 7, 50, 1, "C", "dormitory_o", "shuttlecock_i"),
-    (13, 0, 15, 30, 30, "C", "dormitory_o", "dormitory_i"),
-    (18, 0, 18, 30, 30, "C", "dormitory_o", "dormitory_i"),
-    (19, 0, 21, 30, 10, "C", "dormitory_o", "dormitory_i"),
-    (21, 45, 23, 0, 15, "C", "dormitory_o", "dormitory_i"),
 ]
 timetable_interval_weekends = [(8, 50, 21, 50, 30, "C", "dormitory_o", "dormitory_i")]
 
@@ -59,7 +46,7 @@ a_list = []
 for key, value in timetable_weekdays.items():
     for item in value:
         a_list.append([item["heading"], key, item["startStop"], item["endStop"]])
-with open("./semester/week.csv", "w", newline="") as f:
+with open("./vacation_session/week.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerows(sorted(a_list, key=lambda x: x[1]))
 
@@ -82,6 +69,6 @@ for key, value in timetable_weekends.items():
     for item in value:
         a_list.append([item["heading"], key, item["startStop"], item["endStop"]])
 
-with open("./semester/weekend.csv", "w", newline="") as f:
+with open("./vacation_session/weekend.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerows(sorted(a_list, key=lambda x: x[1]))
